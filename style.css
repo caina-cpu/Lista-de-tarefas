@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --cor-primaria: rgb(11, 147, 165);
+    --cor-primaria-escura: rgba(2, 17, 145, 0.658);
+}
+
+body {
+    background: var(--cor-primaria);
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
+}
+
+section {
+    max-width: 640px;
+    margin:50px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+div {
+    margin: 20px 0px;
+}
+
+ul {
+    font-size: 1.3em;
+}
+
+li {
+    color: red;
+    padding: 10px;
+}
+
+.apagar {
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.apagar:hover {
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.concluído {
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.concluído:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
